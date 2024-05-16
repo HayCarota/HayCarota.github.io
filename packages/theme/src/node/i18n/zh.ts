@@ -2,7 +2,7 @@ import type { GungnirThemeI18n } from "../../shared";
 
 const zh: GungnirThemeI18n = {
   // navbar
-  navbarTitle: "$ cd /home/",
+  navbarTitle: "阿阳",
 
   // language selector
   selectLanguageName: "简体中文",
@@ -30,7 +30,7 @@ const zh: GungnirThemeI18n = {
     "这是一个 404 页面",
     "看起来我们进入了错误的链接"
   ],
-  backToHome: "$ cd /home/",
+  backToHome: "阿阳",
 
   // a11y
   openInNewWindow: "在新窗口打开",

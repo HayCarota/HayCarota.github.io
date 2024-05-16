@@ -2,7 +2,7 @@ import type { GungnirThemeI18n } from "../../shared";
 
 const en: GungnirThemeI18n = {
   // navbar
-  navbarTitle: "$ cd /home/",
+  navbarTitle: "A YANG",
 
   // language selector
   selectLanguageName: "English",
@@ -30,7 +30,7 @@ const en: GungnirThemeI18n = {
     `That's a Four-Oh-Four.`,
     `Looks like we've got some broken links.`
   ],
-  backToHome: "$ cd /home/",
+  backToHome: "A YANG",
 
   // a11y
   openInNewWindow: "open in new window",

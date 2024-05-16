@@ -4,7 +4,8 @@
     "baseUrl": "./",
     "jsx": "preserve",
     "module": "ES2020",
-    "types": ["webpack-env", "vite/client"]
+    "types": ["webpack-env", "vite/client"],
+    "ignoreDeprecations": "5.0"
   },
   "include": ["**/.vuepress/**/*", "packages/**/*"],
   "exclude": ["node_modules", ".temp", "lib", "dist"]

@@ -48,13 +48,13 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "en-US",
-      title: "VuePress Theme Gungnir",
-      description: "A blog theme for VuePress"
+      title: "A YANG BLOG",
+      description: "S S BLOG"
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "VuePress Theme Gungnir",
-      description: "VuePress 博客主题"
+      title: "阿阳博客",
+      description: "小小博客"
     }
   },
 
@@ -65,29 +65,29 @@ export default defineUserConfig({
   // configure default theme
   theme: gungnirTheme({
     navbarTitle: 'A YANG',
-    repo: "Renovamen/vuepress-theme-gungnir",
+    repo: "HayCarota/HayCarota.github.io/tree/myblog",
     docsDir: "docs",
 
     hitokoto: "https://v1.hitokoto.cn?c=i", // enable hitokoto (一言) or not?
 
     // personal information
     personalInfo: {
-      name: "Gungnir",
-      avatar: "/img/avatar.jpeg",
-      description: "A blog theme for VuePress",
+      name: "阿阳",
+      avatar: "/img/avatar.jpg",
+      description: "小小博客 可笑 可笑",
       sns: {
-        github: "Renovamen",
-        linkedin: "xiaohan-zou-55bba0160",
-        facebook: "renovamen.zou",
-        twitter: "renovamen_zxh",
-        zhihu: "chao-neng-gui-su",
-        email: "renovamenzxh@gmail.com",
-        rss: "/rss.xml",
+        github: "HayCarota",
+        // linkedin: "xiaohan-zou-55bba0160",
+        // facebook: "renovamen.zou",
+        // twitter: "renovamen_zxh",
+        // zhihu: "chao-neng-gui-su",
+        email: "1914810765@qq.com",
+        // rss: "/rss.xml",
         // customized sns
-        bilibili: {
-          icon: "ri-bilibili-line",
-          link: "https://www.bilibili.com/"
-        }
+        // bilibili: {
+        //   icon: "ri-bilibili-line",
+        //   link: "https://www.bilibili.com/"
+        // }
       }
     },
 
@@ -184,7 +184,7 @@ export default defineUserConfig({
     },
 
     footer: `
-      &copy; <a href="https://github.com/Renovamen" target="_blank">Renovamen</a> 2018-2022
+      &copy; <a href="https://github.com/HayCarota" target="_blank">HayCarota</a> 2024-2024
       <br>
       Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
       <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>

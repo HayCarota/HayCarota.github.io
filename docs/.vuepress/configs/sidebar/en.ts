@@ -1,7 +1,12 @@
 import type { SidebarConfig } from "vuepress-theme-gungnir";
+import { getFileNames } from "../file-name"
 
 export const en: SidebarConfig = {
   "/docs/": [
+    {
+      text: "Front-end interview HTML",
+      children: getFileNames('../../docs/front-end-html', '/docs/front-end-html')
+    },
     {
       text: "Basic",
       children: [

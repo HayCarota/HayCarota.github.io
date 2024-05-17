@@ -1,7 +1,12 @@
 import type { SidebarConfig } from "vuepress-theme-gungnir";
+import { getFileNames } from "../file-name"
 
 export const zh: SidebarConfig = {
   "/zh/docs/": [
+    {
+      text: "前端面试HTML",
+      children: getFileNames('../../docs/front-end-html', '/docs/front-end-html')
+    },
     {
       text: "基础",
       children: [

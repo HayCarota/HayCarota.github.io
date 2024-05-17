@@ -1,0 +1,61 @@
+## HTML5有哪些更新
+- 语义化标签
+- 媒体标签
+  - audio
+  - video
+  - source
+    - 因为浏览器对视频格式支持程度不一样，为了能够兼容不同的浏览器，可以通过source来指定视频源。
+- 表单
+  - 表单类型
+    - email
+    - url
+    - number
+    - search
+    - range
+    - color
+    - time
+    - date
+    - datetime
+    - week
+    - moth
+  - 表单属性
+    - placeholder
+    - autofocus
+    - autocomplete
+    - required
+    - pattern
+    - multiple
+    - form
+  - 表单事件
+    - oninput
+    - oninvalid
+  - 进度条，度量器
+    - progress
+    - meter
+  - DOM查询操作
+    - document.querySelector()
+    - document.querySelectorAll()
+  - Web存储
+    - localStorage
+    - sessionStorage
+  - 其他
+    - 拖放属性
+      - img draggle=“true”
+    - 画布 canvas
+      - 使用js在网页上绘制图像
+      - canvas id=“mycanvas” width height
+    - SVG
+      - 可伸缩矢量图形，
+      - 用于定义用于网络的基于矢量的图形，使用 XML 格式定义图形，图像在放大或改变尺寸的情况下其图形质量不会有损失，它是万维网联盟的标准
+    - 地理定位
+      - Geolocation，用于定位用户的位置
+- 新增
+  - 新增语义化标签：nav、header、footer、aside、section、article
+  - 媒体标签：audio、video、source
+  - 数据存储：ｌｏｃａｌｓｔｏｒａｇｅ,sessionStorage
+  - canvas画布、地理定位geolocation、通信协议websocket
+  - input标签新增属性：placeholder、autocomplete
+  - history api：go、forword、back、pushsate
+- 移除元素
+  - 纯表现元素：basefont，big，center，font，s
+  - 对可用性产生负面影响的元素：frame，frameset，noframes

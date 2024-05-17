@@ -41,9 +41,25 @@ export const useSidebarItems = (): SidebarItemsRef => {
 export const setupSidebarItems = (): void => {
   const themeLocale = useThemeLocaleData();
   const frontmatter = usePageFrontmatter<GungnirThemeNormalPageFrontmatter>();
-  const sidebarItems = computed(() =>
-    resolveSidebarItems(frontmatter.value, themeLocale.value)
-  );
+  const sidebarItems = computed(() => {
+    // 自定义主题中 sidebar 的子children中 text 值
+    const result = resolveSidebarItems(frontmatter.value, themeLocale.value)
+    return result.map((item:any) => {
+      if (item.children && item.children.length > 0) {
+        item.children = item.children.map((childItem:any) => {
+            if(childItem.text){
+              const regex = /\/([^\/]+)\.md$/;
+              const match = regex.exec(childItem.text);
+              if(match){
+                childItem.text = match[1];
+              }
+            }
+            return childItem;
+        })
+      }
+      return item
+    })
+  });
   provide(sidebarItemsSymbol, sidebarItems);
 };
 

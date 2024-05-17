@@ -64,9 +64,10 @@ export default defineUserConfig({
 
   // configure default theme
   theme: gungnirTheme({
-    navbarTitle: 'A YANG',
-    repo: "HayCarota/HayCarota.github.io/tree/myblog",
-    docsDir: "docs",
+    navbarTitle: 'A YANG', // 左上角标题
+    docsBranch: "myblog", // github分支名称
+    repo: "HayCarota/HayCarota.github.io", //　github仓库地址
+    docsDir: "docs", // 仓库中md文件存放的目录
 
     hitokoto: "https://v1.hitokoto.cn?c=i", // enable hitokoto (一言) or not?
 
@@ -114,20 +115,21 @@ export default defineUserConfig({
     // other pages
     pages: {
       tags: {
-        subtitle: "Black Sheep Wall",
+        title: "文章标签",
+        subtitle: "A Sheep Wall",
         bgImage: {
           path: "/img/pages/tags.jpg",
-          mask: "rgba(211, 136, 37, .5)"
+          mask: "rgba(211, 136, 37, .3)"
         }
       },
-      links: {
-        subtitle:
-          "When you are looking at the stars, please put the brightest star shining night sky as my soul.",
-        bgImage: {
-          path: "/img/pages/links.jpg",
-          mask: "rgba(64, 118, 190, 0.5)"
-        }
-      }
+      // links: {
+      //   subtitle:
+      //     "When you are looking at the stars, please put the brightest star shining night sky as my soul.",
+      //   bgImage: {
+      //     path: "/img/pages/links.jpg",
+      //     mask: "rgba(64, 118, 190, 0.5)"
+      //   }
+      // }
     },
 
     // theme-level locales config

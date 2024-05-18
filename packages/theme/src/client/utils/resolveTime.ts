@@ -1,4 +1,5 @@
 export const formateDateString = (date: string): string => {
+  if (date === "YYYY-MM-DD") date = new Date().toISOString();
   const dateJson = new Date(date).toJSON();
 
   const dateStr = new Date(+new Date(dateJson) + 8 * 3600 * 1000)

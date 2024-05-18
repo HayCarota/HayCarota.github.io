@@ -1,6 +1,12 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
+/**
+ * 获取 文件夹下的所有文件名
+ * @param folderPath  文件夹路径
+ * @param splicingPath  拼接路径
+ * @returns 
+ */
 export const getFileNames = (folderPath: string, splicingPath: string) =>{
     // 指定文件夹路径
     let FilesPath:string[] = []

@@ -23,6 +23,10 @@ export const zh: SidebarConfig = {
       text: "前端面试题-TCP与UDP",
       children: getFileNames('../../docs/front-end/computer-network/TCP与UDP', '/docs/front-end/computer-network/TCP与UDP')
     },
+    {
+      text: "前端面试题-WebSocket",
+      children: getFileNames('../../docs/front-end/computer-network/WebSocket', '/docs/front-end/computer-network/WebSocket')
+    },
     // {
     //   text: "前端面试HTML",
     //   children: getFileNames('../../docs/front-end-html', '/docs/front-end-html')

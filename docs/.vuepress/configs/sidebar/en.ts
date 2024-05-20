@@ -23,6 +23,10 @@ export const en: SidebarConfig = {
       text: "前端面试题-TCP与UDP",
       children: getFileNames('../../docs/front-end/computer-network/TCP与UDP', '/docs/front-end/computer-network/TCP与UDP')
     },
+    {
+      text: "前端面试题-WebSocket",
+      children: getFileNames('../../docs/front-end/computer-network/WebSocket', '/docs/front-end/computer-network/WebSocket')
+    },
     // {
     //   text: "Front-end interview HTML",
     //   children: getFileNames('../../docs/front-end-html', '/docs/front-end-html')

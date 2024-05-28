@@ -46,7 +46,7 @@ date: YYYY-MM-DD
     })
   ```
       - 打开页面，可以在开发者工具中的 Application 看到 Service Worker 已经启动了：
-      - ![](../../../.vuepress/public/img/docs/front-end/computer-network/浏览器原理/Service Worker 已经启动.png)
+      - ![](../../../../.vuepress/public/img/docs/front-end/computer-network/浏览器原理/Service Worker 已经启动.png)
       - 在 Cache 中也可以发现所需的文件已被缓存：
-      - ![](../../../.vuepress/public/img/docs/front-end/computer-network/浏览器原理/文件已被缓存.png)
+      - ![](../../../../.vuepress/public/img/docs/front-end/computer-network/浏览器原理/文件已被缓存.png)
 - 注意
